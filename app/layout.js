@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { StackProvider, StackTheme } from "@stackframe/stack";
 import { stackServerApp } from "../stack";
 import "./globals.css";
-import { ConvexClientProvider } from "./app/ConvexClientProvider";
+import { ConvexClientProvider } from "./ConvexClientProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
